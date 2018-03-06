@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import configureStore from './store/configureStore';
-import WeatherContainer from './containers/weather-container/weather-container';
+import SpeechContainer from './containers/speech-container/speech-container';
 
 /* const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -14,7 +14,7 @@ const store = configureStore({});
 
 const app = () => (
   <Provider store={store}>
-    <WeatherContainer />
+    <SpeechContainer />
   </Provider>
 );
 
